@@ -39,4 +39,17 @@
         <item name="itemTextColor">@color/itemtextcolorlight</item>
     </style>
 
+    <style name="CustomTabLayoutStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorAnimationMode">elastic</item>
+        <item name="tabIndicator">@drawable/tab_indicator</item>
+        <item name="tabIndicatorColor">@color/primary</item>
+        <item name="tabIndicatorHeight">7dp</item>
+        <item name="tabIndicatorFullWidth">false</item>
+        <item name="tabIndicatorGravity">center</item>
+        <item name="tabIndicatorAnimationDuration">@integer/material_motion_duration_long_2</item>
+        <item name="tabSelectedTextColor">@color/primary</item>
+        <item name="tabTextColor">@android:color/darker_gray</item>
+        <item name="android:background">@color/backgroundLight</item>
+    </style>
+
 </resources>
