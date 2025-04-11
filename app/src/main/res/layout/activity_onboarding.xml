@@ -37,18 +37,10 @@
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabLayout"
+            style="@style/CustomTabLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="10"
-            app:tabIndicatorAnimationMode="elastic"
-            app:tabIndicator="@drawable/tab_indicator"
-            app:tabIndicatorColor="@color/primary"
-            app:tabIndicatorHeight="7dp"
-            app:tabIndicatorFullWidth="false"
-            app:tabIndicatorGravity="center"
-            app:tabIndicatorAnimationDuration="@integer/material_motion_duration_long_2"
-            app:tabSelectedTextColor="@color/primary"
-            app:tabTextColor="@android:color/darker_gray"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
